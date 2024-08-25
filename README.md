@@ -31,3 +31,9 @@ Ficsit would be proud
   - Detail any byproduct produced
 - Include a way to save "factories" so that you can manage where supplies are going and how much you are producing
 across the world
+
+## Development Link Aids
+
+Example for NavBar
+
+![ShadCN Example](./readme-assets/exampleNavbarShadcn.png)
