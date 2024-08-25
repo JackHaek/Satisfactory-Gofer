@@ -3,6 +3,7 @@ import logo from './assets/images/logo-universal.png';
 import './App.css';
 import {Greet} from "../wailsjs/go/main/App";
 import { Button } from "@/components/ui/button"
+import NavBar from "@/components/NavBar"
 
 
 function App() {
@@ -17,14 +18,7 @@ function App() {
 
     return (
         <div id="App">
-            <Button variant="outline">Button</Button>
-
-            <img src={logo} id="logo" alt="logo"/>
-            <div id="result" className="result">{resultText}</div>
-            <div id="input" className="input-box">
-                <input id="name" className="input" onChange={updateName} autoComplete="off" name="input" type="text"/>
-                <button className="btn" onClick={greet}>Greet</button>
-            </div>
+            <NavBar/>
         </div>
     )
 }
